@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import linregress
 
 # Step 1: Generate a frequency table of all the words in multiple text files
-filenames = ['/Users/justindiamond/Desktop/Python/ZipfGPT/lumivoxa.txt', '/Users/justindiamond/Desktop/Python/ZipfGPT/voxphera.txt', '/Users/justindiamond/Desktop/Python/ZipfGPT/vivenzia.txt'] # replace with your file names
+filenames = ['lumivoxa.txt', 'voxphera.txt', 'vivenzia.txt'] # replace with your file names
 freq = {}
 for filename in filenames:
     with open(filename, 'r') as file:

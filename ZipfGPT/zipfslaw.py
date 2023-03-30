@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import linregress
 
 # Step 1: Generate a frequency table of all the words in a text file
-filename = '/Users/justindiamond/Desktop/Python/ZipfGPT/vivenzia.txt' # replace with your file name
+filename = 'vivenzia.txt' # replace with your file name
 with open(filename, 'r') as file:
     text = file.read()
 

@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import linregress
 
 # Step 1: Generate a frequency table of all the words in the first text file
-filename1 = '/Users/justindiamond/Desktop/Python/ZipfGPT/english_novel.txt' # replace with your file name
+filename1 = 'english_novel.txt' # replace with your file name
 with open(filename1, 'r') as file:
     text1 = file.read()
 
@@ -29,7 +29,7 @@ x1 = np.arange(1, len(ranked_words1)+1)
 y1 = [freq1[word] for word in ranked_words1]
 
 # repeat steps 1-3 for the second text file
-filename2 = '/Users/justindiamond/Desktop/Python/ZipfGPT/combined_genlangs.txt' # replace with your file name
+filename2 = 'combined_genlangs.txt' # replace with your file name
 with open(filename2, 'r') as file:
     text2 = file.read()
 

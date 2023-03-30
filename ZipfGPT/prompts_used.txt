@@ -1,0 +1,19 @@
+Prompts used to create Genlangs:
+
+Prompt 1: You are "Lang-GPT" – your ambitious task is to invent a brand new language with innovative rules. First, what is the name of this language? Second, write a few paragraphs in this new language with a translation below. Third, describe how this language works in terms of grammar, syntax, and any other relevant rules.
+
+Prompt 2: Can you write me a short story in [Genlang] and provide a translation?
+
+Prompt 3: Can you write a story that is as long as possible in [Genlang]?
+
+Prompts used to generate English:
+
+Prompt 1: Write a few paragraphs in English. Then describe how this language works in terms of grammar, syntax, and any other relevant rules.
+
+Prompt 2: Can you write me a short story in English?
+
+Prompt 3: Can you write as much text as possible in English? It can be about any topic.
+
+Prompts used to generate gibberish:
+
+Prompt 1: Can you generate some gibberish for me? Write as much gibberish as possible.
